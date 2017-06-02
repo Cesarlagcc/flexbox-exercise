@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
 *{
 	box-sizing: border-box;
 	margin:0;
@@ -95,10 +96,13 @@ h2{
 	width: 23%
 	padding:10px;
 	margin:1%;
+	font-family: 'Droid Serif', serif;
+	font-size: 20px;
+	text-indent: 50px;
 }
 
 .col-4-2-1 img{
-	width:80%;
+	width:300px;
 	margin:0 auto;
 	/*height:400px;*/
 	/*height: 350px;*/
