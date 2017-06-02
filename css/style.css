@@ -4,3 +4,176 @@
 	padding:0;
 }
 
+body{
+	padding-top: 50px;
+}
+
+h2{
+	text-align: center;
+}
+
+.h1-two{
+	display: none;
+}
+
+#about{
+	color: purple;
+}
+
+.top-nav{
+	position: fixed;
+	display: flex;
+	background-color: #000;
+	min-height:50px;
+	overflow: hidden;
+	align-items: center;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.top-nav-list{
+	list-style: none;
+	/*border:1px solid red;*/
+	display: flex;
+	margin-left: auto;
+	/*width: 100%;*/
+
+}
+
+.top-nav a{
+	color:white;
+	text-decoration: none;
+	transition:.5s;
+	border-bottom:3px solid #000;
+}
+
+.top-nav a:hover{
+	color:#047dbf;
+	border-bottom:3px solid #047dbf;
+
+}
+
+.brand-text{
+	font-size:30px;
+	/*font-family: Impact;*/
+	margin-left:15px;
+}
+
+.top-nav-list li {
+	margin:0px 15px;
+}
+
+.top-nav-list a{
+	padding:5px;
+	/*border:1px solid red;*/
+}
+
+.full-screen-bg{
+	background-image: url(../images/college.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: calc(100vh - 50px);/* 100vh fills up the entire height of the viewport*/
+	/*width: 100vw;*/
+	width:100%;
+	background-position:center;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	transition: background-image .5s;/*we write background-image before the transition time to dictate what exactly we want to transition*/
+	font-size:30px;
+}
+
+.flex-row{
+	display: flex;
+	
+}
+
+.col-4-2-1{
+	background-color: 
+	width: 23%
+	padding:10px;
+	margin:1%;
+}
+
+.col-4-2-1 img{
+	width:80%;
+	margin:0 auto;
+	/*height:400px;*/
+	/*height: 350px;*/
+	display: block;
+	border-radius:100%;
+	margin-bottom:20px;
+	/*margin-bottom: 40px;*/
+}
+
+
+
+/*.full-screen-bg h1{
+	color:white;
+	font-size:100px;
+}*/
+
+@media (max-width: 1200px) {
+	.full-screen-bg{
+		background-image:url("../images/college-medium.jpeg");
+	}
+
+	.h1-main{
+		display: none;
+	}
+
+	.h1-two{
+		color:black;
+		display:block;
+	}
+
+	.flex-row{
+		flex-wrap: wrap;
+		overflow:auto;
+	}
+
+	.col-4-2-1{
+		border:1px solid black;
+		width:48%;
+		margin:1%;
+		
+	}
+
+
+	.flex-row img{
+	/*width:250px;*/
+	/*height: 250px;*/
+	/*display: block;*/
+	/*margin:0 auto;*/
+	/*height:80%;*/
+	border-radius:100%;
+	padding:20px;
+}
+
+}
+
+@media (max-width: 600px){
+	.top-nav{
+		display: block;
+
+	}
+
+	.full-screen-bg{
+		background-image: url("../images/college-small.jpeg");
+		font-size: 20px;
+	}
+
+	.col-4-2-1{
+		border:1px solid black;
+		width:98%;
+		margin:1%;
+	}
+
+	.h1-two{
+		color:white;
+	}
+}
+
+
