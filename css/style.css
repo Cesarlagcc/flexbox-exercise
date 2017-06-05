@@ -95,10 +95,38 @@ h2{
 .rows-4-2-1{
     flex-direction: column;
     width: 100%;
- 	background-color:;
-	padding:10px;
+ 	background-color:#ebebeb;
+	padding:20px;
 	font-family: 'Droid Serif', serif;
     border: 1px solid black;
+    border-left:none;
+    border-right:none;
+/*    border-top:none;*/
+    margin:20px auto;
+}
+
+.rows-4-2-1 img{
+    display: block;
+    width:300px;
+    padding:0px 10px;
+/*    padding-right:10px;
+/*    margin-left:20px;*/
+}
+
+.row-img1{
+    display: block;
+    width:300px;
+    float: left;
+}
+
+.rows-4-2-1:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row-img2{
+    float: right;
 }
 
 .col-4-2-1{
@@ -191,6 +219,12 @@ h2{
 	.h1-two{
 		color:white;
 	}
+    
+    .rows-4-2-1 img{
+        width: 100%;
+    }
+    
+    
 }
 
 
