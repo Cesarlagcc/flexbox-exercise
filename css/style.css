@@ -87,13 +87,23 @@ h2{
 }
 
 .flex-row{
-	display: flex;
-	
+	display:flex;
+    flex-wrap: wrap;
+/*    overflow:auto;*/
+}
+
+.rows-4-2-1{
+    flex-direction: column;
+    width: 100%;
+ 	background-color:;
+	padding:10px;
+	font-family: 'Droid Serif', serif;
+    border: 1px solid black;
 }
 
 .col-4-2-1{
-	background-color: 
-	width: 23%
+	background-color:;
+	width: 23%;
 	padding:10px;
 	margin:1%;
 	font-family: 'Droid Serif', serif;
@@ -111,6 +121,8 @@ h2{
 	margin-bottom:20px;
 	/*margin-bottom: 40px;*/
 }
+
+
 
 
 
